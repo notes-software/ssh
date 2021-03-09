@@ -1,0 +1,26 @@
+{
+    "name": "notes-software/ssh",
+    "description": "A lightweight package to execute commands over an SSH connection",
+    "keywords": [
+        "notes-software",
+        "ssh"
+    ],
+    "homepage": "https://github.com/notes-software/ssh"
+    "authors": [
+        {
+            "name": "Jagwarthegreat",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.7"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Note-software\\Ssh\\": "src"
+        }
+    }
+}
